@@ -8,10 +8,10 @@ This is a simple weather application that allows users to search for and view th
 - [Technologies](#technologies)
 - [Setup](#setup)
 - [Usage](#usage)
-- [File Structure](#file-structure)
 - [API Key](#api-key)
 - [Credits](#credits)
-
+- [File Structure](#file-structure)
+  
 ## Features
 
 - Search for a city's weather by entering the city name.
@@ -37,7 +37,7 @@ To set up and run this project locally, follow these steps:
 2. Navigate to the project directory:
 
    ```sh
-   cd weather-app
+   cd weather_app
 
 3. Open `index.html` in your preferred web browser.
 
@@ -46,24 +46,6 @@ To set up and run this project locally, follow these steps:
 1. Enter the name of the city you want to check the weather for in the search box.
 2. Click the search button (magnifying glass icon).
 3. View the weather details displayed on the card.
-
-## File Structure
-
-weather-app/
-│
-├── weather app images/
-│   ├── search.png
-│   ├── rain.png
-│   ├── humidity.png
-│   ├── wind.png
-│   ├── clouds.png
-│   ├── clear.png
-│   ├── drizzle.png
-│   ├── mist.png
-│
-├── index.html
-├── style.css
-└── README.md
 
 ## API Key
 
@@ -81,5 +63,25 @@ The weather app uses the OpenWeatherMap API to fetch weather data. You need an A
 - Icons from [source of your icons if applicable].
 - Project inspired by various online tutorials and weather app examples.
 
-```sh
-Make sure to replace placeholder text like `path-to-your-screenshot.png` and `your-api-key-here` with actual values. This `README.md` file provides a comprehensive guide to understanding, setting up, and using the weather app.
+   ```sh
+   Make sure to replace placeholder text like `your-api-key-here` with actual values. This `README.md` file provides a comprehensive guide to understanding, setting up, and using the weather app.
+
+## File Structure
+
+ ```sh
+ weather-app/
+ │
+ ├── weather app images/
+ │   ├── search.png
+ │   ├── rain.png
+ │   ├── humidity.png
+ │   ├── wind.png
+ │   ├── clouds.png
+ │   ├── clear.png
+ │   ├── drizzle.png
+ │   ├── mist.png
+ │
+ ├── index.html
+ ├── style.css
+ └── README.md
+
